@@ -1,0 +1,27 @@
+/* Home.css */
+
+body {
+  background-color: white;
+  color: black;
+  margin: 0; /* Remove default body margin */
+}
+
+.home-wrapper {
+  text-align: left;
+  margin: 10px;
+}
+
+.home-link {
+  margin: 0;
+  display: block; 
+  padding: 10px; 
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s; 
+  list-style: none;
+}
+
+.home-link:hover {
+  color: #007bff;
+}
